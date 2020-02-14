@@ -1,0 +1,17 @@
+2020-02-12 19:38:24,402 INFO [api_login.py(__init__:12)] - 初始化登录 url：http://182.92.81.159/api/sys/login
+2020-02-12 19:38:24,402 INFO [test01_login.py(test_login:20)] - 正在读取参数化数据：[('13800000002', '123456')]
+2020-02-12 19:38:24,551 INFO [test01_login.py(test_login:23)] - 正在调用登录接口：<Response [200]>
+2020-02-12 19:38:24,551 INFO [test01_login.py(test_login:26)] - 登录响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f0b87338-9599-45f7-99f5-c95b3191c43f'}
+2020-02-12 19:38:24,551 INFO [test01_login.py(test_login:33)] - 正在提取token：f0b87338-9599-45f7-99f5-c95b3191c43f
+2020-02-12 19:38:24,551 INFO [test01_login.py(test_login:35)] - 添加 token 值 到：{'Content-Type': 'application/json', 'Authorization': 'Bearer f0b87338-9599-45f7-99f5-c95b3191c43f'}
+2020-02-12 19:38:24,551 INFO [api_employee.py(__init__:12)] - 正在初始化新增 url：http://182.92.81.159/api/sys/user
+2020-02-12 19:38:24,551 INFO [api_employee.py(__init__:16)] - 正在初始化修改、新增、删除 url：http://182.92.81.159/api/sys/user/{}
+2020-02-12 19:38:24,686 INFO [test02_employee.py(test01_post:23)] - 正在调用新增员工接口：<Response [200]>
+2020-02-12 19:38:24,686 INFO [test02_employee.py(test01_post:27)] - 新增员工响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557563650101248'}}
+2020-02-12 19:38:24,687 INFO [test02_employee.py(test01_post:31)] - 提取 员工 id：1227557563650101248
+2020-02-12 19:38:24,810 INFO [test02_employee.py(test02_put:37)] - 正在调用更新员工接口：<Response [200]>
+2020-02-12 19:38:24,810 INFO [test02_employee.py(test02_put:40)] - 更新员工响应结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557563650101248'}}
+2020-02-12 19:38:24,927 INFO [test02_employee.py(test03_get:45)] - 正在调用查询员工接口：<Response [200]>
+2020-02-12 19:38:24,927 INFO [test02_employee.py(test03_get:48)] - 查询员工响应结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227557563650101248', 'mobile': '13815477732', 'username': 'tom-new', 'password': '758ccf8d097d264d361e18f5d368a3ad', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '10311101', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 19:38:25,069 INFO [test02_employee.py(test04_delete:53)] - 正在调用删除员工接口：<Response [200]>
+2020-02-12 19:38:25,070 INFO [test02_employee.py(test04_delete:56)] - 删除员工响应结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

@@ -1,0 +1,77 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581681849928" stop="1581681850778">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1581681849928" status="passed" stop="1581681850094">
+      <name>test01_login.TestLogin.test_login_0_13800000002</name>
+      <attachments>
+        <attachment source="8595a7dc-0352-434a-b6a4-d43aa814d7da-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18412-MainThread"/>
+        <label name="host" value="windows"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681850115" status="passed" stop="1581681850276">
+      <name>test02_employee.TestEmployee.test01_post</name>
+      <attachments>
+        <attachment source="33a63ea6-d1ea-411f-8760-56d40641b72c-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="3a810ae6-45da-452a-8057-921d7e0b8a8b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18412-MainThread"/>
+        <label name="host" value="windows"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681850297" status="passed" stop="1581681850448">
+      <name>test02_employee.TestEmployee.test02_put</name>
+      <attachments>
+        <attachment source="ea4f2744-038a-412c-838b-cebe2f60f8d4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18412-MainThread"/>
+        <label name="host" value="windows"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681850470" status="passed" stop="1581681850604">
+      <name>test02_employee.TestEmployee.test03_get</name>
+      <attachments>
+        <attachment source="21753889-5cb2-40a6-9c7e-60269b5f9b5a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18412-MainThread"/>
+        <label name="host" value="windows"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581681850625" status="passed" stop="1581681850778">
+      <name>test02_employee.TestEmployee.test04_delete</name>
+      <attachments>
+        <attachment source="61fd01c5-1bdb-453a-908e-32c6ace45548-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18412-MainThread"/>
+        <label name="host" value="windows"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

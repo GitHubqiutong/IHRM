@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test02_employee.py:23 正在调用新增员工接口：<Response [200]>
+[32mINFO    [0m root:test02_employee.py:27 新增员工响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1228288822202421248'}}
+[32mINFO    [0m root:test02_employee.py:31 提取 员工 id：1228288822202421248

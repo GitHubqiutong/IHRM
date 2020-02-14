@@ -1,0 +1,6 @@
+[32mINFO    [0m root:api_login.py:12 初始化登录 url：http://182.92.81.159/api/sys/login
+[32mINFO    [0m root:test01_login.py:20 正在读取参数化数据：[('13800000002', '123456')]
+[32mINFO    [0m root:test01_login.py:23 正在调用登录接口：<Response [200]>
+[32mINFO    [0m root:test01_login.py:26 登录响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c6f5f9f3-3fab-4adf-a028-0dc3434eeee8'}
+[32mINFO    [0m root:test01_login.py:33 正在提取token：c6f5f9f3-3fab-4adf-a028-0dc3434eeee8
+[32mINFO    [0m root:test01_login.py:35 添加 token 值 到：{'Content-Type': 'application/json', 'Authorization': 'Bearer c6f5f9f3-3fab-4adf-a028-0dc3434eeee8'}
