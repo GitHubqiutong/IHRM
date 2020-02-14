@@ -47,6 +47,7 @@ class TestEmployee(unittest.TestCase):
         # print("查询员工结果：", r.json())
         log.info("查询员工响应结果：{}".format(r.json()))
 
+
     # 删除员工
     def test04_delete(self):
         r = self.api_employee.api_delete_employee()
