@@ -47,14 +47,11 @@ class TestEmployee(unittest.TestCase):
         # print("查询员工结果：", r.json())
         log.info("查询员工响应结果：{}".format(r.json()))
 
-
-
     # 删除员工
     def test04_delete(self):
         r = self.api_employee.api_delete_employee()
         log.info("正在调用删除员工接口：{}".format(r))
         # print("删除结果为：", r.json())
-        # assert_common(self, r)
-        assert False
+        assert_common(self, r)
         log.info("删除员工响应结果：{}".format(r.json()))
 
